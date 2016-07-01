@@ -50,7 +50,7 @@ describe('Client', function() {
 
         evt = {
           data: {
-            key: 'zaf.hello',
+            key: 'caf.hello',
             message: message
           }
         };
@@ -77,7 +77,7 @@ describe('Client', function() {
           });
         });
 
-        describe('when the message is not from zaf', function() {
+        describe('when the message is not from caf', function() {
           it("does not pass the message to the client", function() {
             evt.data.key = 'hello';
             window.addEventListener.callArgWith(1, evt);
@@ -199,7 +199,7 @@ describe('Client', function() {
         requestsCount++;
       });
 
-      it('asks ZAF to make a request', function() {
+      it('asks CAF to make a request', function() {
         expect(subject.postMessage).to.have.been.calledWithMatch(/request:\d+/, { url: '/api/v2/tickets.json' });
       });
 
