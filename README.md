@@ -1,9 +1,8 @@
-*Use of this software is subject to important terms and conditions as set forth in the License file*
 
-Zendesk App Framework SDK
+Cadence  App Framework SDK
 =========================
 
-[![Build Status](https://travis-ci.org/zendesk/zendesk_app_framework_sdk.svg?branch=master)](https://travis-ci.org/zendesk/zendesk_app_framework_sdk)
+*This is a fork from Zendesk App Framework SDK*
 
 ## What is it?
 
