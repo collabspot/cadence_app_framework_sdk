@@ -1,5 +1,5 @@
 
-Cadence  App Framework SDK
+Common  App Framework SDK
 =========================
 
 *This is a fork from Zendesk App Framework SDK*
